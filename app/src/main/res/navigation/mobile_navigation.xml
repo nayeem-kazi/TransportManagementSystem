@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.transportmanagementsystem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_transports"
+        android:name="com.example.transportmanagementsystem.ui.transports.TransportsFragment"
+        android:label="@string/menu_transports"
+        tools:layout="@layout/fragment_transports" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.transportmanagementsystem.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_new_transport"
+        android:name="com.example.transportmanagementsystem.NewTransportFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_employees"
+        android:name="com.example.transportmanagementsystem.EmployeesFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_trip_booking"
+        android:name="com.example.transportmanagementsystem.TripBookingFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_pay_fare"
+        android:name="com.example.transportmanagementsystem.PayFareFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_locations"
+        android:name="com.example.transportmanagementsystem.LocationsFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.transportmanagementsystem.ContactsFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.transportmanagementsystem.HelpFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.transportmanagementsystem.SettingsFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_print_chalan"
+        android:name="com.example.transportmanagementsystem.PrintChalanFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.example.transportmanagementsystem.ReportFragment"
+        android:label="fragment_new_transport"
+        tools:layout="@layout/fragment_new_transport" />
+
+
+
+</navigation>

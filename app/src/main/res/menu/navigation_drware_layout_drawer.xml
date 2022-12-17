@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_transports"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_transports" />
+        <item
+            android:id="@+id/nav_employees"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_employees" />
+        <item
+            android:id="@+id/nav_trip_booking"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_trip_booking" />
+        <item
+            android:id="@+id/nav_pay_fare"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_pay_fare" />
+
+        <item
+            android:id="@+id/nav_new_transport"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_new_transport" />
+
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_locations" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_contacts" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_help" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_settings" />
+
+        <item
+            android:id="@+id/nav_print_chalan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_print_chalan" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_report" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/action_logout" />
+
+    </group>
+</menu>

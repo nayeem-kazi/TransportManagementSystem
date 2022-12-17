@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "575657320203",
+    "project_id": "transportmanagementsyste-157c4",
+    "storage_bucket": "transportmanagementsyste-157c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575657320203:android:4a0ca2a9869b7329cb4c0e",
+        "android_client_info": {
+          "package_name": "com.example.transportmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575657320203-4bfgiklblprqgfsrpe5aispv2ah83h9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh9L8SrOokeYKfzZDR_XKMRCKkN3g2mBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575657320203-4bfgiklblprqgfsrpe5aispv2ah83h9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
